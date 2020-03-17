@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="Ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+</head>
+<body>
+	<div class="top-line">
+		<div class="top-line-left">
+		
+			<a class="toggle" href="#"><div class="burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<p>Меню</p></a>
+			<nav>
+				<ul>
+					<li><a href="about-company.html">О компании</a></li>
+					<li><a class="a-on" href="index.html#id1">Расчитать стоимость</a></li>
+					<li><a class="a-on" href="index.html#id2">Гарантия низкой цены</a></li>
+					<li><a class="a-on" href="index.html#id3">Наши партнеры</a></li>
+					<li><a href="docum.html">Документация</a></li>
+					<li><a class="a-on" href="index.html#id4">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="top-line-right">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="phone">
+				<img src="img/phone-icon.png" alt="">
+				<p>+7 (800) 511-94-98</p>
+			</div>
+			<div class="mail">
+				<img src="img/mail-icon.png" alt="">
+				<p>tkventum74@ya.ru</p>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	
+
+	<div class="docum">
+	<h2>Документация</h2>
+	<div class="doc-table">
+		<div class="doc doc-mar1">
+			
+		</div>
+		<div class="doc doc-mar2">
+			
+		</div>
+		<div class="doc">
+			
+		</div>
+		</div>
+		<p>ООО ТК “Вентум”</p>
+	</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('.toggle').click(function() {
+			$('.top-line nav').slideToggle(500);
+		});
+		$(window).resize(function() {
+			if ($(window).width() > 500 ) {
+				$('').removeAttr('style');
+			}
+		});
+		$('.magnific').magnificPopup();
+
+	});
+</script>
+<script>
+ new WOW().init();
+</script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="Ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+</head>
+<body>
+	<div class="top-line">
+		<div class="top-line-left">
+		
+			<a class="toggle" href="#"><div class="burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<p>Меню</p></a>
+			<nav>
+				<ul>
+					<li><a href="about-company.html">О компании</a></li>
+					<li><a class="a-on" href="index.html#id1">Расчитать стоимость</a></li>
+					<li><a class="a-on" href="index.html#id2">Гарантия низкой цены</a></li>
+					<li><a class="a-on" href="index.html#id3">Наши партнеры</a></li>
+					<li><a href="docum.html">Документация</a></li>
+					<li><a class="a-on" href="index.html#id4">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="top-line-right">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="phone">
+				<img src="img/phone-icon.png" alt="">
+				<p>+7 (800) 511-94-98</p>
+			</div>
+			<div class="mail">
+				<img src="img/mail-icon.png" alt="">
+				<p>tkventum74@ya.ru</p>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+
+	<div class="about-us-wrap">
+		<div class="overley">
+			<div class="about-us">
+				<h2>О компании</h2>
+				<p>Транспортная компания «Вентум» - молодая команда,<br> занимающаяся грузоперевозками по всей России от <br>
+1 тонны.</p>
+				<p>Оказываем транспортные услуги нашим клиентам и имеем<br> опыт в сфере грузоперевозок более 7 лет.</p>
+				<p>Мы не просто продаем и выполняем сделки, наша цель -<br> быть максимально полезными для наших клиентов и<br> партнеров, делать все самое лучшее для предоставления<br> высшего сервиса, постоянно развиваться с командой и<br> радовать наших</p>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('.toggle').click(function() {
+			$('.top-line nav').slideToggle(500);
+		});
+		$(window).resize(function() {
+			if ($(window).width() > 500 ) {
+				$('').removeAttr('style');
+			}
+		});
+		$('.magnific').magnificPopup();
+
+	});
+</script>
+<script>
+ new WOW().init();
+</script>
+</body>
+</html>
