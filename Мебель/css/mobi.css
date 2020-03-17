@@ -1,0 +1,5 @@
+@media screen and (max-width: 1900px) {
+	.how ul li {
+		display: none;
+	}
+}
