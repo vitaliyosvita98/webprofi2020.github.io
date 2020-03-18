@@ -1,0 +1,3667 @@
+@import url(reset.css);
+@font-face {
+	font-family: "Museo 900";
+	src: url(../font/MUSEOSANSCYRL_900_ITALIC.OTF)
+}
+@font-face {
+	font-family: "Museo 900 normal";
+	src: url(../font/exljbris - Museo Cyrl 900.otf)
+}
+@font-face {
+	font-family: "Museo 500";
+	src: url(../font/MUSEOSANSCYRL_500_ITALIC.OTF);
+}
+@font-face {
+	font-family: "Museo 100";
+	src: url(../font/MUSEOSANSCYRL_1.OTF);
+}
+@font-face {
+	font-family: "Museo 300";
+	src: url(../font/MUSEOSANSCYRL_3.OTF);
+}
+@font-face {
+	font-family: "Museo 100";
+	src: url(../font/MUSEOSANSCYRL_1.OTF);
+}
+@font-face {
+	font-family: "Museo 700";
+	src: url(../font/MUSEOSANSCYRL_700_ITALIC.OTF);
+}
+@font-face {
+	font-family: "Museo 700 normal";
+	src: url(../font/Museo700-Regular.otf);
+}
+@font-face {
+	font-family: "Neuman";
+	src: url(../font/TD-NEUMANN_0.OTF);
+}
+body {
+	
+}
+.big-block {
+		background-color: #1e1e25;
+		position: relative;
+		overflow: hidden;
+}
+.main-block-wrap {
+	height: 1100px;
+	background-color: #fff;
+	background-image: url(../img/main-block-bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+background-color: #1e1e25;
+		transition: all .5s ease;
+}
+.main-block-wrap .center {
+	width: 149px;
+	margin:0 auto;
+}
+
+.main-block {
+	max-width: 1170px;
+	margin:0 auto;
+
+}
+.main-block .go-down {
+	position: absolute;
+	bottom: 424px;
+	left:0;
+	transform: rotate(270deg);
+}
+.main-block .go-down img {
+	display: inline-block;
+	vertical-align: middle;
+	transform: rotate(88deg);
+	margin-right: 40px;
+}
+.main-block .go-down h6 {
+	display: inline-block;
+	vertical-align: middle;
+	color:#656667;
+	font-family: "Museo 900";
+	font-size: 10pt;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.main-block-wrap.m-new {
+	position: relative;
+	left:91px;
+	transition: all .5s ease;
+	transform: translate(0px, 0px) scale(0.9);
+}
+.top-fix {
+	position: relative;
+	top:0;
+	width: 100%;
+	z-index: 100;
+}
+.top-line {
+	max-width: 1170px;
+	margin:0 auto;
+	position: relative;
+	padding-top: 42px;
+}
+.top-line .left {
+	float: left;
+	position: relative;
+	left: -90px;
+}
+.top-line .left .burg {
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../img/burger.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 22px;
+	height: 16px;
+}
+.main-ul {
+	width: 100%;
+	height:100vh;
+	opacity: 0;
+	
+	position: absolute;
+	top:0;
+	left:-100%;
+	background-color: transparent;
+
+	z-index: 1000000;
+	transition: all 1s ease;
+}
+.main-ul .active img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 16px;
+	position: relative;
+	top:-2px;
+}
+.main-ul .top-ul-line {
+	width:100%;
+	height: 70px;
+		background-color: #1e1e25;
+		
+		position: absolute;
+		top:0;
+		left: 0;
+}
+.main-ul .top-ul-line2 {
+	width:100%;
+	height: 70px;
+		background-color: #1e1e25;
+		
+		position: absolute;
+		bottom:0;
+		left: 0;
+}
+.main-ul.new-class {
+	left:0;
+	opacity: 1;
+	transition: all 1s ease;
+}
+.main-ul .close {
+	margin-top: 48px;
+	opacity: 0.6;
+	padding-left: 95px;
+}
+.main-ul .close:hover {
+	opacity: 1;
+	transition: all .5s ease;
+}
+.main-ul h6 {
+	font-size: 32px;
+	font-family: Neuman;
+	text-transform: uppercase;
+	color:#fff;
+	margin-top: 35px;
+	margin-bottom: 48px;
+	padding-left: 95px;
+}
+.main-ul h6 span {
+	font-size: 45px;
+}
+.main-ul li {
+	list-style-type: none;
+}
+.main-ul .cont {
+		background-color: #1e1e25;
+	width: 400px;
+	height: 100vh
+}
+.main-ul ul {
+	padding-left: 95px;
+}
+.main-ul .ver-line {
+	position: absolute;
+	top:0;
+	left: 340px;
+	width: 1px;
+	height: 100vh;
+	background-color: #303038;
+}
+.main-ul .ver-line2 {
+	position: absolute;
+	top:0;
+	left: 715px;
+	width: 1px;
+	height: 70px;
+	background-color: #303038;
+}
+.main-ul .ver-line3 {
+	position: absolute;
+	bottom:0;
+	left: 715px;
+	width: 1px;
+	height: 70px;
+	background-color: #303038;
+}
+.main-ul li a {
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-family: "Museo 900";
+	font-size:10px;
+	line-height: 42px;
+	letter-spacing: 2px;
+}
+.main-ul .menu-img {
+	margin-top: 30px;
+	padding-left: 95px;
+}
+.main-ul .menu-img img {
+	margin-right: 20px;
+}
+.top-line .center {
+	width: 149px;
+	margin:0 auto;
+}
+.top-line .right {
+	float: right;
+	position: absolute;
+	top:17px;
+	right: -90px;
+}
+.top-line .left a {
+	display: inline-block;
+	vertical-align: top;
+}
+.top-line .left a span {
+	display: block;
+	background-color: #fff;
+	width: 25px;
+	height: 2px;
+	margin-bottom: 4px;
+	border-right: 5px;
+}
+.top-line .left p {
+	display: inline-block;
+	vertical-align: top;	
+	font-family: "Museo 900 normal";
+	line-height: 21px;
+	font-size: 10px;
+	letter-spacing: 2px;
+	color:#717871;
+	margin-left: 35px;
+	position: relative;
+	top:-7px;
+	
+		text-transform: uppercase;
+}
+.top-line h3 {
+	font-family: "Museo 300";
+	color:#fff;
+	font-size: 23px;
+
+}
+.top-line .right .tell {
+	text-decoration: none;
+	letter-spacing: normal;
+}
+.top-line .right a {
+	font-family: "Museo 900 normal";
+	letter-spacing: 2px;
+	font-size: 10px;
+	color:#717871;
+	padding-left: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.top-line .zvonok {
+	position: relative;
+	margin-top: 11px;
+
+}
+.top-line .center.new-c {
+	display: none;
+}
+.top-line .zvonok img {
+    position: absolute;
+    top: -21px;
+    left: -13px;
+}
+.main-block .center-con h1 {
+font-family: "Neuman";
+text-align: center;
+font-size: 68px;
+line-height: 72px;
+color:#f5e9d7;
+margin-top: 163px;
+
+margin-bottom: 33px;
+}
+.main-block .center-con h2 {
+font-family: "Museo 100";
+text-align: center;
+font-size: 20px;
+color:#fff;
+margin-bottom: 43px;
+}
+.main-block .center-con .con-a a {
+	background-image: url(../img/main-button-bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 78px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Museo 900 normal";
+	color:#6b5c45;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 70px;
+	display: table;
+	margin:0 auto;
+}
+.main-block .center-con .con-a img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 22px;
+	position: relative;
+	top:-1px;
+}
+.main-block .last-block {
+	padding-left: 70px;
+	margin-top: 55px;
+}
+.main-block .last-block p {
+	font-family: "Museo 300";
+	color:#fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.techno-wrap {
+	background-color: #25252d;
+	padding-bottom: 100px;
+	position: relative;
+	top:-1px;
+}
+
+.techno-wrap .techno {
+	width: 1170px;
+	margin:0 auto;
+	position: relative;
+}
+.techno-wrap .techno .t-line1 {
+    background-color: #3b3b42;
+    width: 1px;
+    height: 310px;
+    position: absolute;
+    top: -103px;
+    left: 59px;
+}
+.techno-wrap .techno .t-line2 {
+    background-color: #3b3b42;
+    width: 1px;
+    height: 225px;
+    position: absolute;
+    bottom: 132px;
+    left: 59px;
+}
+.techno-wrap .techno .t-line3 {
+    background-color: #3b3b42;
+    width: 1px;
+    height: 183px;
+    position: absolute;
+    bottom: 0;
+    left: 281px;
+}
+.techno-wrap .techno .t-line4 {
+    background-color: #3b3b42;
+    width: 1px;
+    height: 234px;
+    position: absolute;
+    bottom: 87px;
+    left: 635px;
+}
+.techno-wrap .techno .t-block {
+    position: absolute;
+    top: -119px;
+    left: 80px;
+}
+.techno-wrap .techno .tec-left {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 85px;
+	position: relative;
+}
+.techno-wrap .techno .tec-left  .krug-pos1 {
+	    position: absolute;
+    top: 116px;
+    left: 258px;
+    cursor: pointer;
+}
+.techno-wrap .techno .tec-left  .krug-pos2 {
+    position: absolute;
+    top: 209px;
+    left: 418px;
+       cursor: pointer;
+}
+.techno-wrap .techno .tec-left  .krug-pos3 {
+  position: absolute;
+    top: 272px;
+    left: 317px;
+       cursor: pointer;
+}
+.techno-wrap .techno .tec-left  .krug-pos4 {
+    position: absolute;
+    top: 374px;
+    left: 464px;
+       cursor: pointer;
+}
+.techno-wrap .techno .tec-left  .krug-pos5 {
+	    position: absolute;
+    top: 444px;
+    left: 360px;
+    cursor: pointer;
+}
+.techno-wrap .techno .tec-left  .krug1 {
+	background-color: #fff;
+	width: 48px;
+	height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+     display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+}
+.techno-wrap .techno .tec-left  .krug1:hover .yel-border {
+	border:2px solid #fff;
+	transition: all .5s ease;
+}
+.techno-wrap .techno .tec-left  .krug1 .yel-border {
+	background-color: #fff;
+	border:2px solid #e8cda1;
+	     display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+
+}
+.techno-wrap .techno .tec-left  .krug1 .krug-yel {
+	height: 12px;
+	width: 12px;
+	background-color: #e8cda1;
+	position: absolute;
+	left: center;
+	border-radius: 50%;
+
+}
+.techno-wrap .techno .tec-left .l-krug1 {
+    position: absolute;
+    top: 116px;
+    left: 258px;
+    cursor: pointer;
+}
+.techno-wrap .techno .tec-left .l-krug2 {
+    position: absolute;
+    top: 209px;
+    left: 418px;
+       cursor: pointer;
+  
+}
+.techno-wrap .techno .tec-left .l-krug3 {
+    position: absolute;
+    top: 272px;
+    left: 317px;
+       cursor: pointer;
+
+}
+.techno-wrap .techno .tec-left .l-krug4 {
+    position: absolute;
+    top: 374px;
+    left: 464px;
+       cursor: pointer;
+ 
+}
+.techno-wrap .techno .tec-left .l-krug5 {
+    position: absolute;
+    top: 444px;
+    left: 360px;
+    cursor: pointer;
+}
+.techno-wrap .techno .num1 {
+ 	display:none;
+}
+.techno-wrap .techno .num2 {
+	display: none;
+}
+.techno-wrap .techno .num3 {
+	display: none;
+}
+.techno-wrap .techno .num4 {
+	display: none;
+}
+.techno-wrap .techno .num5 {
+	display: none;
+}
+.techno-wrap .techno .num.visb {
+	display: block;
+}
+.techno-wrap .techno .tec-right {
+	display: inline-block;
+	vertical-align: top;
+	width: 360px;
+	position: relative;
+}
+.techno-wrap .techno .tec-right .right-center {
+	width: 300px;
+	margin:0 auto;
+}
+.techno-wrap .techno .tec-right .right-center h2 {
+	font-family: Neuman;
+	font-size: 32px;
+	color:#fff;
+	text-transform: uppercase;
+	margin-bottom: 54px;
+	position: relative;
+}
+.techno-wrap .techno .tec-right .right-center h2::after {
+	content:'';
+	position: absolute;
+top: -96px;
+right: 36px;
+	background-color: #3b3b42;
+	width: 1px;
+	height: 215px;
+}
+.techno-wrap .techno .tec-right .right-center h2::before {
+	content:'';
+	position: absolute;
+	top: -55px;
+left: -54px;
+	background-color: #3b3b42;
+	width: 1px;
+	height: 275px;
+}
+.techno-wrap .techno .tec-right .right-center h2 span {
+	text-transform: uppercase;
+	font-size: 45px;
+}
+.techno-wrap .techno .tec-right .right-center h4 {
+	font-family: Neuman;
+	font-size: 39px;
+	text-transform: uppercase;
+	color:#e5bd7d;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 57px;
+	position: relative;
+}
+.techno-wrap .techno .tec-right .right-center h4::after {
+	content: '';
+	position: absolute;
+top: 8px;
+right: -29px;
+	width: 1px;
+	height: 45px;
+	background-color: #3b3b42;
+}
+.techno-wrap .techno .tec-right .right-center h3 {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Museo 900";
+	color:#fff;
+	font-size: 12px;
+	position: relative;
+	text-transform: uppercase;
+}
+.techno-wrap .techno .tec-right .right-center h3::after {
+		content: '';
+	position: absolute;
+top: -161px;
+right: -161px;
+	width: 1px;
+	height: 135px;
+	background-color: #3b3b42;
+}
+.techno-wrap .techno .tec-right .right-center p {
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#fff;
+	margin-top: 32px;
+	line-height: 24px;
+}
+.techno-wrap .techno .tec-right .rotate  {
+	transform: rotate(270deg);
+	position: absolute;
+	top: 26px;
+left: -104px;
+}
+.techno-wrap .techno .tec-right .rotate h5 {
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: "Museo 900 normal";
+	color:#58585c;
+}
+.techno-wrap .techno .tec-right .rotate  img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.techno-wrap .white-block {
+	background-color:transparent;
+	width: 270px;
+	padding:45px;
+	border-radius: 30px;
+	margin-top: 80px;
+	position: relative;
+	z-index: 1000;
+background-image: url(../img/teni.png);
+background-repeat: no-repeat;
+-webkit-background-size: 100% 100%;
+background-size: 100% 100%;
+}
+
+.techno-wrap .white-block .white-con {
+	background-color: #fff;
+	padding:45px;
+	border-radius: 30px;
+
+}
+.techno-wrap .white-block .white-con h2 {
+	font-family: Neuman;
+	font-size: 21px;
+	color:#25252d;
+	text-transform: uppercase;
+}
+.techno-wrap .white-block .white-con h3 {
+		font-family: Neuman;
+	font-size:92px;
+	color:#25252d;
+	line-height: 75px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.techno-wrap .white-block .white-con h3 span{
+font-size: 75px;
+}
+.techno-wrap .white-block .white-con h4 {
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#636366;
+}
+.mine-block-wrap {
+	background-color: #faf9f5;
+	width: 100%;
+	padding:100px 0;
+	margin-top: -383px;
+}
+.mine-block-wrap .v-first {
+    width: 100%;
+    position: relative;
+    top: -54px;
+    height: 360px;
+}
+
+.mine-block {
+	max-width: 1170px;
+	margin:0 auto;
+	position: relative;
+}
+.mine-block .mine-img {
+		display: inline-block;
+	vertical-align: top;
+	margin-left: 105px;
+}
+.mine-block .mine-img img {
+	position: relative;
+top: -37px;
+left: 5px;
+z-index: 100;
+}
+.mine-block .mine-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 330px;
+	position: relative;
+	z-index: 2000;
+}
+.mine-block .line1 {
+	margin-bottom: 26px;
+}
+.mine-block .line1 a:first-child {
+	margin-right: 7px;
+}
+.mine-block .line2{
+	margin-bottom: 26px;
+}
+.mine-block .line2 .active  {
+	color:#fff;
+	font-family: "Museo 900";
+	background-color: #e9c878;
+}
+.mine-block .replace-a.active {
+	color:#fff;
+	font-family: "Museo 900 normal";
+	background-color: #e9c878;
+	letter-spacing: 2px;
+}
+.mine-block .line3 {
+	margin-bottom: 26px;
+}
+.mine-block .text1.visible {
+	display: block;
+}
+.mine-block .text2.visible {
+	display: block;
+}
+.mine-block .text3.visible {
+	display: block;
+}
+.mine-block .text4.visible {
+	display: block;
+}
+.mine-block .text5.visible {
+	display: block;
+}
+.mine-block .text1 {
+display: none;
+}
+.mine-block .text2 {
+display: none;
+}
+.mine-block .text3 {
+display: none;
+}
+.mine-block .text4 {
+display: none;
+}
+.mine-block .text5 {
+display: none;
+}
+.mine-block .mine-content a {
+text-decoration: none;
+font-family: "Museo 700 normal";
+font-size: 12px;
+font-weight: bold;
+text-transform:uppercase;
+color:#a49680;
+padding:10px 15px;
+background-color: #eeeae1;
+letter-spacing: 2px;
+border-radius: 8px;
+
+}
+.mine-block .mine-content p {
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#616163;
+	line-height: 24px;
+	margin-top: 58px;
+}
+.mine-block .derevo {
+	position: absolute;
+right: -283px;
+top: -41px;
+
+}
+.mine-block .block1 {
+	position:absolute;
+	left: 80px;
+top: 2px;
+}
+.mine-block .block1 h5 {
+	font-family: "Museo 900 normal";
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#bbad97;
+	transform: rotate(270deg);
+letter-spacing: 2px;
+position: absolute;
+top:0;
+left: 0;
+}
+.mine-block .block1 .lin1 {
+	width: 1px;
+	height: 180px;
+	background-color: #c8b9a2;
+	position: absolute;
+top: -83px;
+left: -12px;
+}
+.mine-block .block1 .lin2 {
+	width: 1px;
+	height: 80px;
+	background-color: #c8b9a2;
+	position: absolute;
+	top: -32px;
+left: 19px;
+}
+.mine-block .think h2 span {
+	font-size: 45px;
+}
+.mine-block .think {
+	position: absolute;
+	bottom: 139px;
+left: 212px;
+	transform: rotate(347deg);
+	z-index: 101;
+}
+.mine-block .think h2{
+	font-family: Neuman;
+	text-transform: uppercase;
+	color:#25252d;
+	font-size: 34px;
+}
+.mine-block .karkas {
+	position: absolute;
+	right: 0;
+	background-color: #faf9f5;
+	bottom: -60px;
+
+}
+.mine-block .karkas img {
+    width: 32px;
+    position: absolute;
+    top: 16px;
+    left: -32px;
+}
+.mine-block .karkas h3 {
+	font-size: 20px;
+	font-family: Neuman;
+	color:#25252d;
+	text-transform: uppercase;
+	background-color: #faf9f5;
+	padding:0 0 0 25px;
+	letter-spacing: 2px;
+}
+.mine-block .ver-l1{
+    height: 110px;
+    width: 1px;
+    background-color: #c8b9a2;
+    position: absolute;
+    top: -200px;
+    left: 650px;
+}
+.mine-block .ver-l2 {
+    height: 110px;
+    width: 1px;
+    background-color: #c8b9a2;
+    position: absolute;
+    top: -235px;
+    left: 700px;
+}
+.more-house-wrap {
+	padding:95px 0;
+	background: #25252d;
+	width: 100%;
+	position: relative;
+}
+.more-house-wrap .treee {
+	position: absolute;
+	top:-365px;
+	left:0;
+}
+.more-house {
+	max-width: 1170px;
+	margin:0 auto;
+	position: relative;
+}
+.more-house .left h2 span{
+	line-height: 72px;
+	font-size: 68px;
+	font-family: Neuman;
+	text-transform: none;
+	color:#fadb8f;
+}
+.more-house .left h2 {
+	line-height: 72px;
+	font-size: 45px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Neuman;
+	color:#fff;
+}
+.more-house .left .button a {
+	font-family: "Museo 900";
+	font-size: 12px;
+	color:#6b5c45;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+		background-image: url(../img/button-bg1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 268px;
+	height: 78px;
+	display: block;
+	text-align: center;
+	line-height: 76px;
+	margin-top: 34px;
+}
+.more-house .left .button a img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+
+}
+.more-house .house-line1 .left {
+display: inline-block;
+	vertical-align: top;
+	margin-left: 80px;	
+	margin-right: 57px;
+	position: relative;
+
+top: 61px;
+}
+.more-house .house-line1 .right {
+	background-image: url(../img/big-house-bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	height: 440px;
+	width: 648px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 70px;
+}
+.more-house .house-line1 .right h1 {
+	font-family: Neuman;
+	font-size: 22px;
+	padding:5px 10px;
+	color:#fff;
+	opacity: 0.5;
+	border:1px solid #fff;
+	display: inline-block;
+	border-radius: 8px;
+	margin-top: 220px;
+	margin-bottom: 12px;
+}
+.more-house .house-line1 .right h2 {
+		font-family: Neuman;
+	font-size: 48px;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.more-house .house-line1 .right .bed {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 37px;
+}
+.more-house .house-line1 .right .sauna {
+	display: inline-block;
+vertical-align: middle;
+margin-right: 63px;
+}
+.more-house .house-line1 .right .bed img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.more-house .house-line1 .right .bed p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#fff;
+	margin-left: 10px;
+}
+.more-house .house-line1 .right .sauna img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.more-house .house-line1 .right .sauna p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#fff;
+	margin-left: 10px;
+}
+.more-house .house-line1 .right h3 {
+	display: inline-block;
+	vertical-align: middle;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: Neuman;
+}
+.house-line2 .house1 {
+	background-image: url(../img/house1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	display: inline-block;
+	vertical-align: top;
+	width: 308px;
+	height: 440px;
+	padding-left: 35px;
+	margin-right: 30px;
+}
+.house-line2 {
+	display: table;
+margin: 35px auto 0 auto;
+}
+.house-line2 .house2 {
+	background-image: url(../img/house2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	display: inline-block;
+	vertical-align: top;
+	width: 308px;
+	height: 440px;
+	padding-left: 35px;
+	margin-right: 30px;
+}
+.house-line2 .house3 {
+	background-image: url(../img/house3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	display: inline-block;
+	vertical-align: top;
+	width: 308px;
+	height: 440px;
+	padding-left: 35px;
+}
+.more-house .house-line2 h1 {
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: Neuman;
+	color:#fff;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-top: 248px;
+	letter-spacing: 1px;
+	margin-right: 60px;
+}
+.more-house .house-line2 h2 {
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: Neuman;
+	color:#fff;
+	font-size: 22px;
+
+} 
+.more-house .house-line2 .bed {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 67px;
+	margin-top: 14px;
+}
+.more-house .house-line2 .sauna {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top:14px;
+}
+.more-house .house-line2 p {
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#fff;
+	display: inline-block;
+	vertical-align: middle;
+}
+.more-house .house-line2 img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.more-house .house-line2 h3 {
+	font-family: Neuman;
+	font-size: 40px;
+	text-transform: uppercase;
+	color:#fff;
+	margin-top: 21px;
+}
+.house-line3 {
+display: table;
+margin: 35px auto 0 auto;
+}
+.house-line3 .l-house h1 {
+	font-family: Neuman;
+	font-size: 22px;
+	padding:5px 10px;
+	color:#fff;
+	opacity: 0.5;
+	border:1px solid #fff;
+	display: inline-block;
+	border-radius: 8px;
+	margin-top: 220px;
+	margin-bottom: 12px;
+}
+ .house-line3 .l-house h2 {
+		font-family: Neuman;
+	font-size: 48px;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+ .house-line3 .l-house .bed {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 37px;
+}
+ .house-line3 .l-house .sauna {
+	display: inline-block;
+vertical-align: middle;
+margin-right: 63px;
+}
+ .house-line3 .l-house .bed img {
+	display: inline-block;
+	vertical-align: middle;
+}
+ .house-line3 .l-house .bed p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#fff;
+	margin-left: 10px;
+}
+ .house-line3 .l-house .sauna img {
+	display: inline-block;
+	vertical-align: middle;
+}
+ .house-line3 .l-house .sauna p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#fff;
+	margin-left: 10px;
+}
+
+ .house-line3 .l-house h3 {
+	display: inline-block;
+	vertical-align: middle;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: Neuman;
+}
+ .house-line3 .l-house {
+ 	display: inline-block;
+ 	vertical-align: top;
+ 		background-image: url(../img/big-house-bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	height: 440px;
+	width: 648px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 70px;
+	margin-right: 30px;
+ }
+.house-line3 .house1 {
+	background-image: url(../img/house4.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	display: inline-block;
+	vertical-align: top;
+	width: 308px;
+	height: 440px;
+	padding-left: 35px;
+}
+.house-line3 .house1 h1 {
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: Neuman;
+	color:#fff;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-top: 248px;
+	letter-spacing: 1px;
+	margin-right: 60px;
+}
+.house-line3 .house1 h2 {
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: Neuman;
+	color:#fff;
+	font-size: 22px;
+
+} 
+.house-line3 .house1 .bed {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 67px;
+	margin-top: 14px;
+}
+.house-line3 .house1 .sauna {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top:14px;
+}
+.house-line3 .house1 p {
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#fff;
+	display: inline-block;
+	vertical-align: middle;
+}
+.house-line3 .house1 img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.house-line3 .house1 h3 {
+	font-family: Neuman;
+	font-size: 40px;
+	text-transform: uppercase;
+	color:#fff;
+	margin-top: 21px;
+}
+.more-house .catalog {
+	transform: rotate(270deg);
+	position: absolute;
+	top: 181px;
+left: -54px;
+}
+.more-house .catalog h6 {
+	font-size: 10px;
+	font-family: "Museo 900 normal";
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:#6e6c6e;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.more-house .catalog h6::before {
+	content: '';
+	position: absolute;
+	top: 6px;
+left: 162px;
+	width: 50px;
+	height: 1px;
+	background-color: #464345;
+}
+.more-house .catalog h6::after {
+	content: '';
+	position: absolute;
+top: 6px;
+left: -190px;
+	width: 135px;
+	height: 1px;
+	background-color: #464345;
+}
+.more-house .catalog img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+	
+}
+.book-wrap {
+	width: 100%;
+	background-color: #25252d;
+	padding-top: 45px;
+}
+.book {
+	max-width: 1170px;
+	margin:0 auto;
+	position: relative;
+}
+.book .book-left {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left: -445px;
+}
+.book .book-right {
+	display: inline-block;
+	vertical-align: top;
+	width: 370px;
+	position: absolute;
+	top:10px;
+	right: 10px;
+	z-index: 100;
+}
+.book .book-right h1 {
+	color:#fff;
+	font-family: Neuman;
+	text-transform: uppercase;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.book .book-right h1 span {
+	font-size: 45px;
+}
+.book .book-right .main {
+	width: 270px;
+	padding:18px 0 18px 50px;
+	border:none;
+	background-color: #25252d;
+	border-bottom: 1px solid #4d5059;
+	font-family: "Museo 100";
+	font-size: 18px;
+	color:#727583;
+	margin-bottom: 14px;
+}
+.book .book-right .main1 {
+	background-image: url(../img/tel.png);
+	background-repeat: no-repeat;
+	background-position: 2px 23px;
+}
+.book .book-right .main2 {
+	background-image: url(../img/mail.png);
+	background-repeat: no-repeat;
+	background-position: 2px 23px;
+}
+.book .book-right button {
+	border:none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: "Museo 900";
+	color:#6b5c45;
+	width: 314px;
+	background-color: transparent;
+	height: 78px;
+	background-image: url(../img/button-bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	letter-spacing: 2px;
+	margin-top: 21px;
+	margin-bottom: 40px;
+}
+.book .book-right #checkbox {
+	display: none;
+	vertical-align: middle;	
+}
+
+.book .book-right .check label {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 11px;
+	font-family: "Museo 300";
+	color:#444650;
+	line-height: 14px;
+	position: relative;
+	padding-left: 48px;
+}
+.book .book-right .check label::before {
+content: "";
+display: inline-block;
+ width: 22px;
+	    height: 22px;	 
+	    margin-right: 10px;
+	    position: absolute;
+	    left: 0;
+	    bottom: 10px;
+	  background-color: #25252d;
+	  border:1px solid #747b84;
+}
+.mfp-auto-cursor .mfp-content .modal-wrap .check-mod label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 11px;
+  font-family: "Museo 300";
+  color:#444650;
+  line-height: 14px;
+  position: relative;
+  padding-left: 48px;
+}
+.check-mod input:checked + label:before {
+	background-image: url(../img/checked.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+.book .book-right  input:checked + label:before {
+background-image: url(../img/checked.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.man-wrap {
+	background-image: url(../img/man-bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	height: 1678px;
+	background-color: #25252d;
+	margin-top: -200px;
+}
+.man {
+	max-width: 1170px;
+	margin:0 auto;
+	position: relative;
+	padding-top: 630px;
+}
+.man .h-block {
+    position: absolute;
+    top: 428px;
+    left: 31px;
+    transform: rotate(270deg);
+}
+.man .h-block h6{
+	font-family: "Museo 900 normal";
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color:#746e6b;
+	margin-left: 7px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.man .h-block img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.man .line-ver1 {
+	height: 355px;
+	width: 1px;
+	background-color: #5c5451;
+	position: absolute;
+	top:640px;
+	left: 30px;
+}
+.man .line-ver2 {
+	height: 200px;
+	width: 1px;
+	background-color: #5c5451;
+	position: absolute;
+	top:200px;
+	left: 150px;
+}
+.man .line-ver3 {
+	height: 140px;
+	width: 1px;
+	background-color: #5c5451;
+	position: absolute;
+	top:742px;
+	left: 420px;
+}
+.man .line-ver4 {
+	height: 100px;
+	width: 1px;
+	background-color: #5c5451;
+	position: absolute;
+	top:707px;
+	left: 470px;
+}
+.man .line-ver5 {
+    height: 200px;
+    width: 1px;
+    background-color: #5c5451;
+    position: absolute;
+    top: 113px;
+    left: 115px;
+}
+.man h1 {
+	font-family: Neuman;
+	text-transform: uppercase;
+	font-size: 32px;
+	color:#fff;
+	padding-left: 108px;
+}
+.man h1 span {
+	font-size: 45px;
+}
+.man h2 {
+	font-family: "Museo 300";
+	font-size: 16px;
+	color:#79716c;
+	line-height: 24px;
+	margin-top: 30px;
+		padding-left: 108px;
+}
+
+.man .good {
+	width: 370px;
+	height: 290px;
+	background-color: #fff;
+	position: relative;
+	border-radius: 25px;
+	padding-top: 60px;
+	padding-left: 50px;
+	margin-top: 172px;
+	margin-left: 82px;
+	opacity: 0;
+
+}
+.man .good.opa {
+	opacity: 1;
+	transition: all .5s ease;
+}
+.man .good-h1 {
+	display: none;
+}
+.man .good-h2 {
+	display: none;
+}
+.man .good-h3 {
+	display: none;
+}
+.man .good-h4 {
+	display: none;
+}
+.man .good h3 {
+	display: none;
+}
+.man .good h3.blo {
+	display:inline-block;
+}
+.man .good img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.man .good h3 {
+	display:none;
+	vertical-align: middle;
+	font-family: Neuman;
+	font-size: 22px;
+	text-transform: uppercase;
+	color:#25252d;
+	margin-left: 20px;
+
+}
+.man .good p {
+	font-family: "Museo 100";
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 22px;
+	color:#25252d;
+}
+.man .good .good-brevno {
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+.man .opit {
+	width: 223px;
+	height: 292px;
+	background-image: url(../img/number-8.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	text-align: center;
+	padding-top: 50px;
+	position: absolute;
+	right: 115px;
+	bottom:290px;
+}
+.man .opit  h4 {
+	font-family: Neuman;
+	color:#25252d;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.man .opit h5 {
+	font-family: Neuman;
+	color:#25252d;
+	font-size: 123px;
+	line-height: 145px;
+}
+.man .el1 {
+	position: absolute;
+	bottom: -10px;
+	right: 160px;
+	cursor: pointer;
+}
+.man .el2 {
+    position: absolute;
+    bottom: 226px;
+    right: 422px;
+    cursor: pointer;
+}
+.man .el3 {
+    position: absolute;
+    bottom: 411px;
+    left: 363px;
+    cursor: pointer;
+}
+.man .el4 {
+    position: absolute;
+    bottom: 530px;
+    right: 471px;
+    cursor: pointer;
+}
+.man .el1:hover {
+	transition: all .5s ease;
+	transform:scale(1.2);
+}
+.man .el2:hover {
+	transition: all .5s ease;
+	transform:scale(1.2);
+}
+.man .el3:hover {
+	transition: all .5s ease;
+	transform:scale(1.2);
+}
+.man .el4:hover {
+	transition: all .5s ease;
+	transform:scale(1.2);
+}
+.otziv-wrap {
+	width: 100%;
+	background-color: #24252d;
+	margin-top: -76px;
+}
+.otziv {
+	max-width: 1170px;
+	margin:0 auto;
+}
+.otziv .yellow {
+	display: inline-block;
+	vertical-align: middle;
+}
+.otziv h1 {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Museo 900 normal";
+	letter-spacing: 2px;
+	color:#545458;
+	position: relative;
+	top:1px;
+	
+	margin-left: 6px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.otziv .main-h {
+	display: table;
+	margin:0 auto;
+}
+.otziv h2 {
+	text-transform: uppercase;
+	font-family: Neuman;
+	font-size: 32px;
+	color:#fff;
+	text-align: center;
+	margin-top: 17px;
+	margin-bottom: 48px;
+}
+.otziv h2 span {
+	font-size: 45px;
+}
+.otziv .otziv-left {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	border-radius: 40px;
+	width: 800px;
+	height: 390px;
+	background-image: url(../img/otziv-big.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-right: 24px;
+	margin-left: 80px;
+}
+
+.otziv .otziv-left .overley  {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(37,37,45,0.6);
+	border-radius: 40px;
+}
+.otziv .otziv-right {
+	display: inline-block;
+	vertical-align: top;
+}
+.otziv .otziv-right .small1 {
+	position: relative;
+	margin-bottom: 15px;
+}
+.otziv .otziv-right .small1 img {
+	border-radius: 20px;
+	width: 170px;
+	height: 120px;
+}
+.otziv .otziv-right .small1 .overley {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(37,37,45,0.6);
+	border-radius: 20px;
+}
+.otziv .otziv-right .small1:hover .overley {
+	opacity: 0;
+	transition: all .5s ease;
+}
+.otziv .otziv-left .con {
+	cursor: pointer;
+	position: absolute;
+	top:140px;
+	left:280px;
+}
+.otziv .otziv-left .con img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.otziv .otziv-left .con h5 {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Museo 300";
+	color:#fff;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.otziv-wrap .vol {
+	width: 100%;
+	height: 580px;
+	margin-top: 115px;
+}
+.see-wrap {
+	background-color: #faf9f5;
+	margin-top: -242px;
+	position: relative;
+}
+.see-wrap .tree {
+	position: absolute;
+	left: 0;
+	bottom: -217px;
+}
+.see-wrap .see {
+	max-width: 1170px;
+	position: relative;
+	margin:0 auto;
+	height: 250px;
+}
+.see-wrap .see h1 {
+	text-transform: uppercase;
+	font-family: Neuman;
+	font-size: 32px;
+	padding-left: 170px;
+	position: relative;
+top: -90px;
+}
+.see-wrap .see h1 span {
+	font-size: 45px;
+}
+.see-wrap .see .big-house {
+	position: absolute;
+	right: -185px;
+	bottom: 0;
+}
+.see-wrap .see .see-h {
+	position: absolute;
+	top:18px;
+	left:0;
+	transform: rotate(270deg);
+}
+.see-wrap .see .see-h h3 {
+	font-family: "Museo 900 normal";
+	letter-spacing: 2px;
+	font-size: 10px;
+	text-transform: uppercase;
+	color:#bbad97;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.see-wrap .see .see-h img {
+		display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.see-big {
+	position: relative;
+	width: 100%;
+}
+.see-big .brokoli-h {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.ul-wrap {
+	width: 100%;
+	background-color: #f5f3ed;
+}
+.ul-wrap .ul {
+	max-width: 1170px;
+	margin:0 auto;
+}
+.ul-wrap ul {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 85px;
+}
+.ul-wrap .zagruz {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 67px;
+
+}
+.ul-wrap .zagruz a {
+	font-size: 12px;
+	font-family: "Museo 900";
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#bdb09b;
+	letter-spacing: 2px;
+}
+.ul-wrap .zagruz img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.ul-wrap ul li {
+	display: inline-block;
+	vertical-align: top;
+	padding:25px 6px 21px 6px;
+	border-bottom: 4px solid #f5f3ed;
+	margin-right: 63px;
+}
+.ul-wrap ul li:hover {
+	transition: all .5s ease;
+		border-bottom: 4px solid #dfb46d;
+	
+}
+.ul-wrap ul .active {
+	border-bottom: 4px solid #dfb46d;
+}
+.ul-wrap ul li:hover a {
+	color:#25252d;
+}
+.ul-wrap ul li:last-child {
+	margin-right: 0;
+}
+.ul-wrap ul li a{
+	text-decoration: none;
+	font-family:"Museo 500";
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#d4cdb8;
+	letter-spacing: 2px;
+}
+.ul-wrap .li-line1 {
+	display: inline-block;
+	vertical-align: top;
+}
+.ul-wrap .li-line2 {
+	display: inline-block;
+	vertical-align: top;
+}
+.ul-wrap .zagruz a:hover {
+transition: all .5s ease;
+color:#25252d;
+}
+.many-elips {
+	max-width: 1170px;
+	margin:0 auto;
+	padding:28px 0 42px 0;
+	z-index: 101;
+	position: relative;
+}
+.many-elips.visbl {
+	display: table;
+}
+.many-elips .elips1 {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 90px;
+	text-align: center;
+}
+.many-elips-wrap .many2.visbl {
+	display: table;
+}
+.many-elips-wrap .many1.visbl {
+	display: table;
+}
+.many-elips-wrap .many3.visbl {
+	display: table;
+}
+.many-elips-wrap .many4.visbl {
+	display: table;
+}
+.many-elips-wrap .many5.visbl {
+	display: table;
+}
+.many-elips-wrap .many6.visbl {
+	display: table;
+}
+.many-elips-wrap .many1 {
+	display: none;
+}
+.many-elips-wrap .many2 {
+	display: none;
+}
+.many-elips-wrap .many3 {
+	display: none;
+}
+.many-elips-wrap .many4 {
+	display: none;
+}
+.many-elips-wrap .many5 {
+	display: none;
+}
+.many-elips-wrap .many6 {
+	display: none;
+}
+.many-elips-wrap .many2 .elips1 .krug {
+	background-color: #000;
+}
+.many-elips-wrap .many3 .elips1 .krug {
+	background-color: #3c19b0;
+}
+.many-elips-wrap .many4 .elips1 .krug {
+	background-color: #2bb019;
+}
+.many-elips-wrap .many5 .elips1 .krug {
+	background-color: #aeb019;
+}
+.many-elips-wrap .many6 .elips1 .krug {
+	background-color: #b03219;
+}
+.many-elips .elips1 .krug{
+	height: 65px;
+	width: 65px;
+	background-color: #eceae7;
+	border-radius: 50%;
+}
+.many-elips .elips1 h2 {
+	font-family: "Museo 500";
+	font-size: 10px;
+	text-transform: uppercase;
+	color:#c5c2c0;
+	margin-top: 15px;
+}
+.many-elips .elips1-mar {
+	margin-left: 85px;
+}
+.many-elips .elips1:hover .krug {
+	background-color: #706768;
+	transition: all .5s ease;
+}
+.many-elips .elips1:hover h2 {
+color:#a49680;
+transition: all .5s ease;
+}
+.footer-wrap {
+	background-color: #25252d;
+}
+.footer {
+	max-width: 1170px;
+	margin:0 auto;
+	height: 618px;
+	padding:90px 0 50px 0;
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+}
+.footer h1 {
+	font-family: Neuman;
+	font-size: 48px;
+	color:#fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 128px;
+	margin-bottom: 17px;
+}
+.footer h1 span {
+	font-size: 68px;
+}
+.footer h2 {
+	font-family: "Museo 300";
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color:#fff;
+	margin-bottom: 34px;
+}
+.footer a {
+	display:block;
+	width: 369px;
+	height: 78px;
+	background-image: url(../img/footer-a-bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin:0 auto;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: "Museo 900 normal";
+	font-weight: bold;
+	color:#6b5c45;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 73px;
+}
+.footer .kalendar {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	position: relative;
+	top:-3px;
+}
+.footer .target1 {
+    position: absolute;
+    top: 381px;
+    left: 48px;
+}
+.footer .target2 {
+    position: absolute;
+    top: 346px;
+    left: 139px;
+}
+.footer .target3 {
+    position: absolute;
+    top: 273px;
+    left: 115px;
+}
+.footer .target4 {
+    position: absolute;
+    top: 266px;
+    left: 180px;
+}
+.footer .target5 {
+    position: absolute;
+    top: 412px;
+    left: 231px;
+}
+.footer .target6 {
+    position: absolute;
+    top: 338px;
+    left: 271px;
+}
+.footer .target7 {
+    position: absolute;
+    top: 307px;
+    left: 232px;
+}
+.footer .target8 {
+    position: absolute;
+    top: 190px;
+    left: 247px;
+}
+.footer .target9 {
+    position: absolute;
+    top: 190px;
+    left: 158px;
+}
+.footer .target10 {
+    position: absolute;
+    top: 258px;
+    left: 283px;
+}
+.footer .target11 {
+    position: absolute;
+    top: 140px;
+    right: 90px;
+}
+.footer .target12 {
+    position: absolute;
+    top: 407px;
+    right: 219px;
+}
+.footer .target13 {
+    position: absolute;
+    top: 283px;
+    right: 154px;
+}
+.footer .target14 {
+    position: absolute;
+    top: 515px;
+    right: 232px;
+}
+.last-block-wrap {
+	background-color: #25252d;
+	padding-bottom: 45px;
+}
+.last-block-wrap .last-block {
+	max-width: 1170px;
+	margin:0 auto;
+	position: relative;
+	right: -170px;
+}
+.last-block .last1 {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.last-block .last1 h2 {
+	font-family: "Museo 300";
+	color:#fff;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.last-block .top a {
+	text-decoration: none;
+}
+.last-block .last1 img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.last-block .last1 a {
+	
+	font-size: 12px;
+	
+	font-family: "Museo 300";
+	color:#5b5658;
+}
+.last-block .last1 h3 {
+		font-size: 23px;
+	
+	font-family: "Museo 300";
+	color:#fff;
+}
+.last-block .last1 h4 {
+	font-size: 12px;
+	
+	font-family: "Museo 300";
+	color:#5b5658;
+}
+.last-block .last1 .top {
+	margin-bottom: 10px;
+}
+.last-block .last-mar3 .top {
+	position: relative;
+	top:-9px;
+}
+.last-block .last-mar4 .top {
+	position: relative;
+	top:-9px;
+}
+.last-block .last-mar1 {
+	margin-right: 135px;
+}
+.last-block .last-mar2 {
+	margin-right: 152px;
+}
+.last-block .last-mar3 {
+    margin-right: 128px;
+}
+.last-block .logo-last {
+	position: absolute;
+	left: -264px;
+	top:-30px;
+}
+.last-block .line11 {
+	display: inline-block;
+	vertical-align: top;
+}
+.last-block .line12 {
+	display: inline-block;
+	vertical-align: top;
+}
+.many-elips-wrap .line-1 {
+	display: inline-block;
+	vertical-align: top;
+}
+.many-elips-wrap .line-2 {
+	display: inline-block;
+	vertical-align: top;
+}
+.ul-wrap .li-line1 {
+	margin-right: 63px;
+}
+.hidden {
+	display: none;
+}
+@media screen and (max-width: 1900px) {
+.main-block-wrap.m-new {
+	left: 245px;
+}
+}
+@media screen and (max-width: 1740px) {
+	.mine-block-wrap {
+		overflow: hidden;
+	}
+}
+@media screen and (max-width: 1550px) {
+	.main-block-wrap.m-new {
+    left: 360px;
+}
+	.mine-block .ver-l1 {
+    height: 110px;
+    width: 1px;
+    background-color: #c8b9a2;
+    position: absolute;
+    top: -110px;
+    left: 606px;
+}
+.mine-block .ver-l2 {
+    height: 110px;
+    width: 1px;
+    background-color: #c8b9a2;
+    position: absolute;
+    top: -150px;
+    left: 665px;
+}
+.hid {
+	overflow: hidden;
+}
+.otziv {
+    padding-top: 83px;
+}
+.last-block-wrap .last-block {
+	right: 0;
+	display: table;
+}
+.last-block .last-mar1 {
+	margin-right: 55px;
+	margin-left: 180px;
+}
+.last-block .last-mar2 {
+	margin-right: 72px;
+}
+.last-block .last-mar3 {
+	margin-right: 48px;
+}
+.last-block .logo-last {
+    position: absolute;
+    left: -14px;
+    top: -30px;
+}
+.mine-block-wrap .v-first {
+    width: 100%;
+    position: relative;
+    top: 33px;
+    height: 253px;
+}
+} 
+@media screen and (max-width: 1450px) {
+.top-line .left {
+	left:0;
+}
+.top-line .right {
+	right: 0;
+}
+.many-elips {
+	display: table;
+}
+.see-wrap .tree {
+	display: none;
+}
+.main-block .go-down {
+	left:-40px;
+}
+}
+@media screen and (max-width: 1180px) {
+	.techno-wrap .techno .t-block {
+		display: none;
+	}
+	.techno-wrap .techno .t-line1 {
+		display: none;
+	}
+	.techno-wrap .techno .t-line2 {
+		display: none;
+	}
+	.techno-wrap .techno .t-line3 {
+		display: none;
+	}
+	.techno-wrap .techno .t-line4 {
+		display: none;
+	}
+	.main-block .go-down {
+		display: none;
+	}
+	.man .h-block {
+		display: none;
+	}
+	.man .line-ver1 {
+		display: none;
+	}
+	.man .line-ver2 {
+		display: none;
+	}
+	.man .line-ver3 {
+		display: none;
+	}
+	.man .line-ver4 {
+		display: none;
+	}
+	.man .line-ver5 {
+		display: none;
+	}
+	.mine-block .ver-l1 {
+  display: none;
+} 
+.see-wrap .see .big-house {
+    position: absolute;
+    right: -120px;
+    bottom: 0;
+}
+.mine-block .ver-l2 {
+ display: none;
+}
+	.ul-wrap .li-line1 {
+	margin-right: 26px;
+}
+.top-line .left {
+    left: 15px;
+}
+.top-line .right {
+    right: 15px;
+}
+
+.mine-block-wrap {
+	margin-top: 0;
+}
+.mine-block-wrap .v-first {
+	display: none;
+}
+.techno-wrap .techno .tec-left {
+	display: table;
+	margin:0 auto;
+}
+.techno-wrap .techno {
+	width: auto
+}
+.techno-wrap .techno .tec-right {
+	display: table;
+	margin:50px auto 0 auto;
+}
+.mine-block .mine-img {
+	margin-left: 0;
+}
+.mine-block .derevo {
+	display: none;
+}
+.mine-block .block1 {
+	left: 21px;
+}
+.more-house-wrap .treee {
+	display: none;
+}
+.more-house-wrap a {
+	text-decoration: none;
+}
+.mine-block .mine-img img {
+	width: 80%;
+}
+.mine-block .think h2 {
+	font-size: 24px;
+}
+.mine-block .think h2 span {
+    font-size: 31px;
+}
+.mine-block .think {
+    position: absolute;
+    bottom: 106px;
+    left: 78px;
+    transform: rotate(351deg);
+    z-index: 101;
+}
+.mine-block .karkas h3 {
+	display: none;
+}
+.house-line2 .house1 {
+	display: table;
+	margin:30px auto;
+}
+.house-line2 .house2 {
+	display: table;
+	margin:30px auto;
+}
+.house-line2 .house3 {
+	display: table;
+	margin:30px auto 0 auto;
+}
+.house-line3 .l-house {
+	display: table;
+	margin:0 auto 30px auto;
+}
+.house-line3 .house1 {
+	display: table;
+		margin:0 auto 30px auto;
+}
+.more-house .house-line1 .right {
+	display: table;
+		margin:0 auto 30px auto;
+}
+.more-house .house-line1 .left {
+	display: table;
+	margin:0 auto;
+	text-align: center;
+	top:0;
+}
+.more-house .house-line1 .left .button {
+	display: table;
+	margin:0 auto 50px auto;
+}
+.more-house .catalog {
+	display: none;
+}
+.book .book-left {
+	display: none;
+}
+.book .book-right {
+	position: static;
+	display: table;
+	margin:0 auto;
+	width: 320px;
+}
+.book .book-right h1 {
+	font-size: 29px;
+}
+.techno-wrap {
+	padding-bottom: 50px;
+}
+.man-wrap {
+	margin-top: 0;
+}
+.book-wrap {
+	padding-top: 0;
+}
+.more-house-wrap {
+	padding:95px 0 0 0;
+}
+.man-wrap {
+	height: 1100px;
+}
+.man {
+	padding-top: 200px;
+}
+.otziv .otziv-left {
+	display: table;
+	margin:30px auto;
+}
+.otziv .otziv-right {
+	display: table;
+	margin:30px auto;
+}
+.otziv .otziv-right .small1 {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+}
+.otziv-wrap .vol {
+	height: 420px;
+}
+.see-wrap .tree {
+	display: none;
+}
+.see-wrap .see h1 {
+
+    padding-left: 55px;
+    top: -60px;
+}
+.see-wrap .see .see-h {
+	left:-80px;
+}
+.ul-wrap .zagruz {
+	margin-left: 20px;
+}
+.ul-wrap ul li {
+	margin-right: 26px;
+}
+.ul-wrap ul {
+	margin-left: 0;
+}
+.ul-wrap .ul {
+	display: table;
+	margin:0 auto;
+}
+.many-elips-wrap .line-1 {
+	display: table;
+	margin:0 auto 30px auto;
+}
+.many-elips-wrap .line-2 {
+	display: table;
+	margin:0 auto 0 auto;
+}
+.many-elips-wrap .el-mar-no {
+	margin-right: 0;
+}
+.many-elips .elips1-mar {
+	margin-left: 0;
+}
+.footer .target1 {
+	display: none;
+}
+.footer .target2 {
+	display: none;
+}
+.footer .target3 {
+	display: none;
+}
+.footer .target4 {
+	display: none;
+}
+.footer .target5 {
+	display: none;
+}
+.footer .target6 {
+	display: none;
+}
+.footer .target7 {
+	display: none;
+}
+.footer .target8 {
+	display: none;
+}
+.footer .target9 {
+	display: none;
+}
+.footer .target10 {
+	display: none;
+}
+.footer .target11 {
+	display: none;
+}
+.footer .target12 {
+	display: none;
+}
+.footer .target13 {
+	display: none;
+}
+.footer .target14 {
+	display: none;
+}
+.book-wrap {
+	padding-bottom: 50px;
+}
+.man .el2 {
+    bottom: 226px;
+    right: 295px;
+}
+.man-wrap {
+    height: 900px;
+}
+.man .good {
+	margin-top: 90px;
+}
+.man-wrap {
+    height: 1100px;
+}
+
+
+}
+@media screen and (max-width: 870px) {
+	.mine-block .mine-content {
+    display: table;
+    vertical-align: top;
+    width: 330px;
+    margin: 0 auto;
+}
+.mine-block .mine-img img {
+    width: 100%;
+}
+.mine-block .mine-img {
+	display: table;
+	margin:0 auto;
+}
+.mine-block .think {
+    top: 266px;
+    left: 270px;
+}
+.mine-block .block1 {
+    left: 80px;
+}
+.man .el4 {
+    position: absolute;
+    bottom: 343px;
+    right: 292px;
+    cursor: pointer;
+    width: 55px;
+}
+.man .el3{
+	width: 55px;
+}
+.man .el2{
+    position: absolute;
+    bottom: 150px;
+    right: 30px;
+    cursor: pointer;
+    width: 55px;
+}
+.man .el1 {
+    position: absolute;
+    bottom: -10px;
+    right: 98px;
+    cursor: pointer;
+    width: 55px;
+}
+.man .opit {
+    right: 23px;
+    bottom: 330px;
+}
+.man .good {
+    width: 364px;
+    height: 270px;
+    padding-top: 29px;
+    padding-left: 45px;
+}
+.otziv .otziv-right .small1:last-child {
+	margin-right: 0;
+}
+.otziv .otziv-left {
+	width: 545px;
+height: 319px;
+}
+.otziv .otziv-left .con {
+    top: 100px;
+    left: 175px;
+}
+.see-big .brokoli-h {
+	width: 200px;
+}
+.ul-wrap .zagruz {
+	display: table;
+	margin:15px auto;
+}
+.last-block .logo-last {
+	position: static;
+	display: table;
+	margin:20px auto 0 auto;
+}
+.last-block .last-mar1 {
+	margin-left: 0;
+}
+.last-block .last1 h2 {
+	font-size: 10px;
+}
+.last-block .last1 a {
+	font-size: 10px;
+}
+.last-block .last1 h3 {
+	font-size: 18px;
+}
+.main-block .center-con h1 {
+    font-size: 60px;
+    line-height: 60px;
+
+  	padding-top: 50px;
+    margin-bottom: 33px;
+}
+.main-block-wrap {
+	height: 940px;
+}
+.last-block .last-mar3 {
+    margin-right: 35px;
+}
+.last-block .last-mar2 {
+    margin-right: 40px;
+}
+.last-block .last-mar1 {
+	margin-right: 30px;
+}
+.footer {
+	padding-top: 5px;
+}
+.main-ul {
+
+	padding-left: 50px;
+}
+.man-wrap {
+    height: 900px;
+}
+.man .good {
+	margin-top: 90px;
+}
+.main-ul {
+	padding-left: 0;
+}
+.main-ul .ver-line2 {
+	display: none;
+}
+.main-ul .ver-line3 {
+	display: none;
+}
+.main-block-wrap {
+    height: 780px;
+}
+.man-wrap {
+    height: 975px;
+}
+.main-block .center-con h1 {
+	margin-top: 10px;
+}
+.see-wrap .see .big-house {
+	width: 600px;
+}
+
+
+.more-house .left h2 {
+    line-height: 55px;
+    font-size: 38px;
+    }
+    .more-house .left h2 span {
+    	font-size: 58px;
+    }
+   .more-house .left .button a {
+    font-size: 10px;
+    width: 225px;
+    height: 62px;
+    line-height: 63px;
+}
+.more-house .house-line1 .right h1 {
+	margin-top: 75px;
+}
+.more-house .house-line1 .right {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 274px;
+    width: 356px;
+    padding-left: 28px;
+}
+.more-house .house-line1 .right h2 {
+	font-size: 38px;
+}
+.more-house .house-line1 .right h1 {
+    font-size: 17px;
+    padding: 5px 5px;
+}
+
+.more-house .house-line1 .right h3 {
+	display: block;
+	font-size: 30px;
+}
+.more-house .house-line2 h3 {
+	font-size: 34px;
+}
+.house-line3 .l-house {
+	  -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 274px;
+    width: 356px;
+    padding-left: 28px;
+}
+.house-line3 .l-house h1 {
+		margin-top: 75px;
+}
+.house-line3 .house1 h3 {
+	font-size: 34px;
+}
+
+}
+@media screen and (max-width: 730px) {
+	.main-block .center-con h1 {
+		font-size: 45px;
+line-height: 49px;
+	}
+	.main-block .center-con h2 {
+		font-size: 16px;
+	}
+	.main-block .center-con .con-a a {
+		width: 271px;
+height: 60px;
+	}
+	.main-block .center-con .con-a a {
+		font-size: 10px;
+	}
+	.main-block .center-con .con-a img {
+		margin-right: 8px;
+	}
+	.main-block .last-block img{
+		width: 130px;
+	}
+	.main-block-wrap {
+    height: 833px;
+}
+.techno-wrap .techno .tec-left .house-l {
+	width: 400px;
+}
+.techno-wrap .techno .tec-left .l-krug1 {
+    position: absolute;
+    top: 70px;
+    left: 127px;
+    cursor: pointer;
+    width: 40px;
+}
+.techno-wrap .techno .tec-left .l-krug2 {
+    position: absolute;
+    top: 106px;
+    left: 227px;
+    cursor: pointer;
+   width: 40px;
+}
+.techno-wrap .techno .tec-left .l-krug3 {
+    position: absolute;
+    top: 146px;
+    left: 167px;
+    cursor: pointer;
+    width: 40px;
+}
+.techno-wrap .techno .tec-left .l-krug4 {
+    position: absolute;
+    top: 214px;
+    left: 253px;
+    width: 40px;
+}
+.techno-wrap .techno .tec-left .l-krug5 {
+    position: absolute;
+    top: 240px;
+    left: 176px;
+    cursor: pointer;
+    width: 40px;
+}
+.mine-block .mine-img {
+	width: 400px;
+}
+.mine-block {
+	width: 400px;
+}
+.mine-block .think {
+    top: 179px;
+    left: 102px;
+}
+.mine-block .block1 {
+    left: -10px;
+}
+.more-house .left h2 {
+    line-height: 55px;
+    font-size: 38px;
+    }
+    .more-house .left h2 span {
+    	font-size: 58px;
+    }
+   .more-house .left .button a {
+    font-size: 10px;
+    width: 225px;
+    height: 62px;
+    line-height: 63px;
+}
+.more-house .house-line1 .right h1 {
+	margin-top: 75px;
+}
+.more-house .house-line1 .right {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 274px;
+    width: 356px;
+    padding-left: 28px;
+}
+.more-house .house-line1 .right h2 {
+	font-size: 38px;
+}
+.more-house .house-line1 .right h1 {
+    font-size: 17px;
+    padding: 5px 5px;
+}
+
+.more-house .house-line1 .right h3 {
+	display: block;
+	font-size: 30px;
+}
+.more-house .house-line2 h3 {
+	font-size: 34px;
+}
+.house-line3 .l-house {
+	  -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 274px;
+    width: 356px;
+    padding-left: 28px;
+}
+.house-line3 .l-house h1 {
+		margin-top: 75px;
+}
+.house-line3 .house1 h3 {
+	font-size: 34px;
+}
+.book .book-right h1 {
+    font-size: 24px;
+}
+.book .book-right h1 span {
+    font-size: 38px;
+}
+.book .book-right .main {
+	width: 190px;
+	font-size: 13px;
+}
+.book .book-right button {
+	width: 250px;
+	height: 60px;
+	font-size: 10px;
+}
+.book .book-right .check label {
+	padding-left: 40px;
+	font-size: 9px;
+}
+.book .book-right {
+	width: 254px;
+}
+.man h1 {
+	font-size: 26px;
+	padding-left: 40px;
+}
+.man h1 span {
+   font-size: 36px;
+}
+.man h2 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 40px;
+}
+.man .opit h5 {
+    font-size: 92px;
+    line-height: 103px;
+}
+.man .opit {
+	width: 169px;
+height: 239px;
+}
+.man .good h3 {
+	font-size: 18px;
+}
+.man .good p {
+	font-size: 13px;
+line-height: 19px;
+}
+.man .good .good-brevno {
+	width: 330px;
+}
+.man .good {
+	width: 300px;
+}
+.man {
+    padding-top: 152px;
+}
+.man-wrap {
+    height: 980px;
+}
+.otziv h2 {
+	font-size: 22px;
+	line-height: 48px;
+}
+.otziv .otziv-left {
+    width: 426px;
+    height: 283px;
+}
+.otziv .otziv-left .con {
+    top: 85px;
+    left: 94px;
+}
+.otziv .otziv-right .small1 img {
+    border-radius: 20px;
+    width: 132px;
+    height: 110px;
+}
+.otziv-wrap .vol {
+	display: none;
+}
+.see-wrap {
+	margin-top: 150px;
+	background-color: #fff;
+}
+.see-wrap .see .big-house {
+    width: 473px;
+    height: 297px;
+
+}
+.see-big .brokoli-h {
+    width: 150px;
+}
+.see-wrap .see h1 {
+	font-size: 28px;
+}
+.ul-wrap ul li a {
+	font-size: 10px;
+}
+.ul-wrap ul li {
+    margin-right: 10px;
+}
+.ul-wrap .zagruz a {
+	font-size: 10px;
+}
+.footer h1 {
+	font-size: 40px;
+	line-height: 50px;
+	margin-top: 110px;
+}
+.footer a {
+	width: 290px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 10px;
+}
+.footer .kalendar {
+	margin-right: 12px;
+}
+.footer {
+	height: 500px;
+}
+.last-block .line11 {
+	display: table;
+	margin:30px auto;
+}
+.last-block .last-mar3 {
+    margin-right: 117px;
+}
+.top-line h3 {
+	font-size: 18px;
+}
+.top-line .left p {
+
+    line-height: 17px;
+    font-size: 9px;
+    color: #717871;
+    margin-left: 12px;
+}
+.top-line .right a {
+	font-size: 10px;
+}
+.top-line .center img{
+	width: 130px;
+}
+.see-wrap .see .big-house {
+	right: 0;
+}
+.see-wrap .see .big-house {
+
+    width: 473px;
+    height: 297px;
+    display: block;
+    position: static;
+    float: right;
+
+}
+.see-wrap .see {
+	height: 450px;
+}
+.main-block-wrap {
+    height: 750px;
+}
+.top-line .zvonok {
+	margin-top: 0;
+}
+.techno-wrap .techno .tec-left .l-krug1 {
+	height: 35px;
+	width: 35px;
+}
+.techno-wrap .techno .tec-left .krug1 {
+	height: 35px;
+	width: 35px;
+}
+.techno-wrap .techno .tec-left .krug1 .krug-yel {
+	height: 8px;
+	width: 8px;
+}
+.techno-wrap .techno .tec-left .krug1 .yel-border {
+	height: 16px;
+	width: 16px;
+}
+.top-line h3 {
+padding-left: 30px;
+}
+}
+@media screen and (max-width:680px) {
+.main-block-wrap.m-new {
+	position: static;
+
+}
+.main-ul .cont {
+	width: 300px;
+}
+.main-ul .top-ul-line {
+	display: none;
+}
+.main-ul .top-ul-line2 {
+	display: none;
+}
+.main-ul .ver-line {
+	display: none;
+}
+.main-ul .close {
+	padding-left: 30px;
+}
+.main-ul h6 {
+	padding-left: 30px;
+}
+.main-ul ul {
+	padding-left: 30px;
+}
+.main-ul .menu-img {
+	padding-left: 30px;
+}
+.man .el3 {
+    position: absolute;
+    bottom: 200px;
+    left: 363px;
+    cursor: pointer;
+}
+}
+@media screen and (max-width:475px) {
+	.main-ul .top-ul-line2 {
+		display: none;
+	}
+	.main-ul .top-ul-line {
+		display: none;
+	}
+	.ul-wrap .zagruz  {
+		display: none;
+	}
+.main-block-wrap {
+    height: 530px;
+}
+.top-line .left p {
+    line-height: 14px;
+    font-size: 8px;
+    }
+    .top-line h3 {
+    font-size: 14px;
+}
+.top-line .right a {
+    font-size: 8px;
+}
+.top-line .center {
+	width: 110px;
+	margin-top: 20px;
+}
+.top-line .zvonok {
+	margin-top:0;
+}
+.main-block .center-con h1 {
+    font-size: 32px;
+    line-height: 35px;
+	margin-top: 30px;
+}
+
+.main-block .center-con h2 {
+    font-size: 10px;
+} 
+.main-block .center-con h1 {
+	margin-bottom: 10px;
+}
+.main-block .center-con h2 {
+	margin-bottom: 15px;
+}
+.main-block .center-con .con-a a {
+    line-height: 45px;
+    width: 190px;
+    height: 34px;
+    font-size: 8px;
+}
+.main-block .last-block img {
+    width: 90px;
+}
+.main-block .last-block p {
+    font-size: 15px;
+    margin-top: 8px;
+}
+.techno-wrap .techno .tec-left img {
+    width: 275px;
+}
+.techno-wrap .techno .tec-right .right-center h2 {
+    font-size: 23px;
+    margin-bottom: 44px;
+}
+.techno-wrap .techno .tec-right {
+	width: 270px;
+}
+.techno-wrap .techno .tec-right .right-center {
+	width: 230px;
+}
+.techno-wrap .white-block {
+    width: 200px;
+    padding: 30px;
+}
+.techno-wrap .white-block .white-con {
+	padding: 30px;
+}
+.techno-wrap .white-block .white-con h3 {
+	font-size: 62px;
+	line-height: 48px;
+}
+.white-con h3 span {
+    font-size: 45px;
+}
+.techno-wrap .white-block .white-con h2 {
+	font-size: 18px;
+}
+.techno-wrap .white-block .white-con h4 {
+	font-size: 13px;
+}
+.techno-wrap .techno .tec-right .right-center h2::before {
+	left: -26px;
+}
+.mine-block {
+    width: 290px;
+}
+.mine-block .mine-img {
+    width: 290px;
+}
+.mine-block .think h2 {
+    font-size: 18px;
+}
+.mine-block .think {
+    top: 104px;
+    left: 76px;
+}
+.mine-block .block1 {
+    left: -33px;
+}
+.mine-block .mine-content a {
+	font-size: 12px;
+}
+.mine-block .mine-content {
+	width: 288px;
+}
+.more-house .left h2 {
+    line-height: 40px;
+    font-size: 26px;
+}
+.more-house .left h2 span {
+    font-size: 49px;
+}
+.more-house .left .button a {
+    font-size: 9px;
+    width: 185px;
+    height: 54px;
+    line-height: 54px;
+}
+.more-house .house-line1 .right .sauna {
+	margin-right: 0;
+}
+.more-house .house-line1 .right h1 {
+    margin-top: 36px;
+}
+.more-house .house-line1 .right {
+	height: 228px;
+width: 272px;
+}
+.more-house .house-line1 .right h2 {
+    font-size: 30px;
+}
+.more-house .house-line1 .right h1 {
+	font-size: 14px;
+}
+.more-house .house-line1 .right .bed p {
+	font-size: 14px;
+}
+.more-house .house-line1 .right h3 {
+	font-size: 26px;
+	margin-top: 10px;
+}
+.house-line2 {
+	display: block;
+}
+.house-line2 .house1 {
+	width: 253px;
+	padding-left: 25px;
+}
+.house-line2 .house2 {
+	width: 253px;
+	padding-left: 25px;
+}
+.house-line2 .house3 {
+	width: 253px;
+	padding-left: 25px;
+}
+.more-house .house-line2 p {
+	font-size: 13px;
+}
+.more-house .house-line2 .bed {
+	margin-right: 50px;
+}
+.more-house .house-line2 h1 {
+	margin-right: 34px;
+}
+.more-house .house-line2 h3 {
+    font-size: 26px;
+}
+.house-line3 .l-house {
+    width: 253px;
+    padding-left: 25px;
+}
+.house-line3 .l-house h1 {
+    font-size: 14px;
+}
+.house-line3 .l-house h2 {
+	font-size: 30px;
+}
+.house-line3 .l-house .bed p {
+	font-size: 14px;
+}
+.house-line3 .l-house .bed .bed {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 37px;
+}
+.house-line3 .l-house .sauna {
+	margin-right: 0;
+}
+.house-line3 .l-house {
+    height: 228px;
+    width: 272px;
+}
+.house-line3 .l-house h3 {
+	font-size: 26px;
+}
+.house-line3 .house1 {
+	width: 253px;
+	padding-left: 25px;
+}
+.more-house .house-line3 p {
+	font-size: 13px;
+}
+.more-house .house-line3 .bed {
+	margin-right: 50px;
+}
+.more-house .house-line3 h1 {
+	margin-right: 34px;
+}
+.more-house .house-line3 h3 {
+    font-size: 26px;
+}
+.man .good .good-brevno {
+    width: 270px;
+}
+.man .good {
+	padding-left: 17px;
+	width: 270px;
+	margin-left: 15px;
+	height: 220px;
+	margin-top: 30px;
+}
+.man-wrap {
+    height: 710px;
+}
+.man .opit {
+	display: none;
+}
+.otziv h2 {
+    font-size: 13px;
+    line-height: 43px;
+}
+.otziv h2 span {
+    font-size: 30px;
+}
+.otziv .otziv-left {
+    width: 295px;
+    height: 207px;
+}
+.otziv .otziv-left .con img {
+	width: 80px;
+}
+.otziv .otziv-left .con h5 {
+	font-size: 14px;
+	margin-left: 5px;
+	line-height: 16px;
+}
+.otziv .otziv-left .con {
+    top: 65px;
+    left: 70px;
+}
+.otziv .otziv-right .small1 img {
+    border-radius: 20px;
+    width: 165px;
+    height: 120px;
+}
+.otziv .otziv-right .small1 {
+	display: table;
+	margin:15px auto;
+}
+.otziv-wrap {
+	padding-bottom: 40px;
+}
+.see-wrap .see .big-house {
+	position: static;
+}
+.see-wrap {
+	height: 368px;
+	margin-top: 90px;
+}
+.see-wrap .see .big-house {
+	width: auto;
+	height: 240px;
+}
+.see-wrap .see h1 {
+    font-size: 26px;
+    line-height: 40px;
+}
+.top-line .center {
+	margin-top: 70px;
+}
+.main-block-wrap {
+    height: 565px;
+}
+.main-block .last-block {
+	padding-left: 30px;
+}
+.mine-block .mine-content p {
+	font-size: 14px;
+}
+.techno-wrap .techno .tec-right .right-center p {
+	font-size: 14px;
+}
+.ul-wrap .li-line1 {
+	display: table;
+	margin:0 auto
+} 
+.ul-wrap .li-line2 {
+	display: table;
+	margin:0 auto
+} 
+.many-elips .elips1 {
+	margin-right: 40px;
+}
+.many-elips  .el-mar-no {
+	margin-right: 0;
+}
+.footer h1 {
+    font-size: 30px;
+    line-height: 43px;
+    margin-top: 50px;
+}
+.footer {
+	background-image: none;
+	height:315px;
+}
+.footer h1 span {
+    font-size: 45px;
+}
+.footer h2 {
+	font-size: 14px;
+	line-height: 20px;
+}
+.footer a {
+	width: 220px;
+	height: 55px;
+	line-height: 55px;
+}
+.last-block-wrap .last-block {
+	width: 265px;
+}
+.last-block .last1 h2 {
+    font-size: 12px;
+}
+.last-block .last-mar1 {
+margin-bottom: 30px;
+}
+.last-block .last-mar3 {
+	margin-bottom: 30px;
+	top:0;
+}
+.footer {
+	height: 275px;
+}
+.techno-wrap {
+	overflow: hidden;
+}
+.more-house-wrap {
+	padding-top: 40px;
+}
+.otziv .otziv-right .small1 img {
+    border-radius: 20px;
+    width: 245px;
+    height: 160px;
+}
+.ul-wrap ul li a {
+    font-size: 12px;
+}
+.last-block .last1 h2 {
+    font-size: 13px;
+}
+.last-block .last1 a {
+    font-size: 12px;
+}
+.main-ul {
+	width: 200px;
+	padding-left: 30px;
+}
+.main-ul li a {
+	line-height: 35px;
+}
+.main-ul h6 {
+	margin-bottom: 20px;
+}
+.main-ul {
+	min-height: 625px;
+}
+.top-line .right a {
+    font-size: 12px;
+}
+.top-line h3 {
+	position: relative;
+	left: 35px;
+	width: 110px;
+}
+.techno-wrap .techno .tec-left .house-l {
+    width: 300px;
+}
+.techno-wrap .techno .tec-left .l-krug1 {
+    position: absolute;
+    top: 52px;
+    left: 94px;
+    cursor: pointer;
+    width: 30px;
+}
+.techno-wrap .techno .tec-left .l-krug2 {
+    position: absolute;
+    top: 84px;
+    left: 175px;
+    cursor: pointer;
+    width: 30px;
+}
+.techno-wrap .techno .tec-left .l-krug3 {
+    position: absolute;
+    top: 113px;
+    left: 138px;
+    cursor: pointer;
+    width: 30px;
+}
+.techno-wrap .techno .tec-left .l-krug4 {
+    position: absolute;
+    top: 150px;
+    left: 197px;
+    width: 30px;
+}
+.techno-wrap .techno .tec-left .l-krug5 {
+    position: absolute;
+    top: 186px;
+    left: 141px;
+    cursor: pointer;
+    width: 30px;
+}
+.see-wrap .see .big-house {
+    width: 300px;
+    height: 280px;
+}
+.see-wrap {
+	height: 409px;
+}
+.main-block .center-con h1 {
+	padding-top: 10px;
+}
+.main-block-wrap {
+    height: 468px;
+}
+.main-ul {
+	padding-left: 0;
+}
+.main-ul h6 {
+	padding-left: 30px;
+}
+.main-ul ul {
+	padding-left: 30px;
+}
+.main-ul .menu-img {
+	padding-left: 30px;
+}
+.main-ul .close {
+	padding-left: 30px;
+}
+.main-ul .cont {
+	width: 280px;
+}
+
+.main-ul .ver-line {
+	left: 250px;
+}
+.main-ul {
+	width: auto;
+	background-color: #1e1e25;
+	min-height: 600px;
+}
+.main-block-wrap .center {
+    width: 115px;
+    margin: 30px auto 0 auto;
+}
+.main-block-wrap {
+	height: 550px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.see-wrap {
+    height: 339px;
+}
+.see-wrap .see .big-house {
+	height:210px;
+}
+.more-house .house-line1 .right {
+    height: 230px;
+    width: 260px;
+    padding-left: 25px;
+}
+.house-line2 .house1 {
+	width: 260px;
+}
+.house-line2 .house2 {
+	width: 260px;
+}
+.house-line2 .house3 {
+	width: 260px;
+}
+.house-line3 .l-house {
+height: 230px;
+    width: 260px;
+      padding-left: 25px;	
+}
+.more-house .house-line3 .bed {
+    margin-right: 37px;
+}
+.house-line3 .house1 {
+	width: 260px;
+}
+.house-line3 {
+	display: block;
+}
+.more-house {
+	padding-bottom: 30px;
+}
+.man .el1 {
+    left: 15px;
+    top: 48px;
+}
+.man .el2 {
+  bottom: 85px;
+}
+.man .el4 {
+	right: 50px;
+	bottom: 300px;
+}
+.man .el3 {
+    left: 151px;
+    top: 91px;
+}
+.footer a {
+    width: 245px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 8px;
+}
+.ul-wrap {
+    width: 100%;
+    background-color: #f5f3ed;
+    position: relative;
+    z-index: 1000;
+}
+.mine-block .mine-content a {
+    font-size: 10px;
+}
+.top-line .right a {
+    font-size: 10px;
+}
+.top-line h3 {
+    font-size: 14px;
+    padding-left: 19px;
+}
+}
+@media screen and (max-height: 745px) {
+	.main-ul li a {
+		line-height: 32px;
+	}
+}
